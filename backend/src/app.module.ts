@@ -42,7 +42,7 @@ import { UploadsModule } from './uploads/uploads.module';
       logging: true,
       ...(__prod__ && {
         ssl: {
-          rejectUnauthorized: false,
+          rejectUnauthorized: true,
         },
       }),
       entities: [

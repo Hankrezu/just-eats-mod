@@ -18,15 +18,15 @@ export const dotenvConfig: ConfigModuleOptions = {
     DB_PASSWORD: Joi.string(),
     DB_NAME: Joi.string(),
 
-    PRIVATE_KEY: Joi.string().required(),
+    PRIVATE_KEY: Joi.string(),
 
-    MAILGUN_API_KEY: Joi.string().required(),
-    MAILGUN_DOMAIN_NAME: Joi.string().required(),
-    MAILGUN_FROM: Joi.string().required(),
+    MAILGUN_API_KEY: Joi.string(),
+    MAILGUN_DOMAIN_NAME: Joi.string(),
+    MAILGUN_FROM: Joi.string(),
 
-    CLOUDINARY_CLOUD_NAME: Joi.string().required(),
-    CLOUDINARY_API_KEY: Joi.string().required(),
-    CLOUDINARY_API_SECRET: Joi.string().required(),
+    CLOUDINARY_CLOUD_NAME: Joi.string(),
+    CLOUDINARY_API_KEY: Joi.string(),
+    CLOUDINARY_API_SECRET: Joi.string(),
   }),
 };
 
